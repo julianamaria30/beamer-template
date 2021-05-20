@@ -1,0 +1,83 @@
+\begin{frame}
+    \frametitle{Original code without caption}
+    \begin{minipage}{.5\textwidth}
+    \hspace{-1.25cm}
+    \centering
+    \includegraphics[height=0.55\textheight]{figA.pdf}\\
+    \hspace{-1.25cm}
+    caption of figA\\
+    \scriptsize\textcolor{red}{[Wu et al., Nature (2009)]}
+    \end{minipage}%
+    \begin{minipage}{.5\textwidth}
+    \hspace{+0.25cm}
+    \centering
+    \includegraphics[height=0.55\textheight]{figB.pdf}\\
+    \hspace{+0.25cm}
+    caption of figB\\
+    \scriptsize\textcolor{red}{[Tizio, Caio et al., Nature (2006)]}
+    \end{minipage}
+\end{frame}
+    
+\begin{frame}
+    \frametitle{With figure environment}
+    \begin{figure}
+    \begin{minipage}{.5\textwidth}
+    \centering
+    \includegraphics[height=0.55\textheight]{figA.pdf}
+    
+    \caption{caption of figA
+    
+    \scriptsize\textcolor{red}{[Wu et al., Nature (2009)]}}
+    \end{minipage}%
+    \begin{minipage}{.5\textwidth}
+    \centering
+    \includegraphics[height=0.55\textheight]{figB.pdf}
+    
+    \caption{caption of figB
+    
+    \scriptsize\textcolor{red}{[Tizio, Caio et al., Nature (2006)]}}
+    \end{minipage}
+    \end{figure}
+\end{frame}
+    
+    \begin{frame}
+    \frametitle{Modified version with just minipages}
+    \begin{minipage}{.5\textwidth}
+    \centering
+    \includegraphics[height=0.55\textheight]{figA.pdf}
+    
+    caption of figA
+    
+    \scriptsize\textcolor{red}{[Wu et al., Nature (2009)]}
+    \end{minipage}%
+    \begin{minipage}{.5\textwidth}
+    \centering
+    \includegraphics[height=0.55\textheight]{figB.pdf}
+    
+    caption of figB
+    
+    \scriptsize\textcolor{red}{[Tizio, Caio et al., Nature (2006)]}
+    \end{minipage}
+    \end{frame}
+    
+    \begin{frame}
+    \frametitle{columns example}
+    \begin{columns}
+    \begin{column}{.5\textwidth}
+    \centering
+    \includegraphics[height=0.55\textheight]{figA.pdf}
+    
+    caption of figA
+    
+    \scriptsize\textcolor{red}{[Wu et al., Nature (2009)]}
+    \end{column}%
+    \begin{column}{.5\textwidth}
+    \centering
+    \includegraphics[height=0.55\textheight]{figB.pdf}
+    
+    caption of figB
+    
+    \scriptsize\textcolor{red}{[Tizio, Caio et al., Nature (2006)]}
+    \end{column}
+    \end{columns}
+    \end{frame}
